@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 118" width="100%" role="img" aria-label="Đỗ Hồng Dương Footer">
+  <defs>
+    <linearGradient id="fBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050711"/>
+      <stop offset="100%" stop-color="#0B1124"/>
+    </linearGradient>
+    <linearGradient id="fWave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#FDE047" stop-opacity="0.20"/>
+    </linearGradient>
+    <linearGradient id="fBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8">
+        <animate attributeName="stop-color" values="#38BDF8;#FDE047;#A855F7;#38BDF8" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#A855F7">
+        <animate attributeName="stop-color" values="#A855F7;#38BDF8;#FDE047;#A855F7" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <clipPath id="fClip">
+      <rect x="6" y="6" width="1188" height="106" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .ft1 { font: 700 15px 'Segoe UI', system-ui, sans-serif; fill: #F1F5F9; letter-spacing: 1.5px; }
+    .ft2 { font: 500 12.5px 'Consolas', monospace; fill: #94A3B8; letter-spacing: 1px; }
+    @keyframes fStar {
+      0%, 100% { opacity: 0.25; transform: scale(0.7); }
+      50% { opacity: 1; transform: scale(1.15); }
+    }
+    .fs { transform-box: fill-box; transform-origin: center; animation: fStar 3.2s ease-in-out infinite; }
+  </style>
+
+  <g clip-path="url(#fClip)">
+    <rect x="6" y="6" width="1188" height="106" fill="url(#fBg)"/>
+    <path fill="url(#fWave)" d="M0,45 C280,15 480,75 740,38 C960,8 1090,62 1200,32 L1200,118 L0,118 Z">
+      <animate attributeName="d" dur="7s" repeatCount="indefinite"
+        values="M0,45 C280,15 480,75 740,38 C960,8 1090,62 1200,32 L1200,118 L0,118 Z;
+                M0,32 C260,68 490,14 750,52 C970,82 1080,18 1200,46 L1200,118 L0,118 Z;
+                M0,45 C280,15 480,75 740,38 C960,8 1090,62 1200,32 L1200,118 L0,118 Z"/>
+    </path>
+
+    <g class="fs" transform="translate(150, 58)">
+      <path d="M0,-9 L2,-2 L9,0 L2,2 L0,9 L-2,2 L-9,0 L-2,-2 Z" fill="#7DD3FC"/>
+    </g>
+    <g class="fs" transform="translate(1050, 58)" style="animation-delay: 1.2s">
+      <path d="M0,-9 L2,-2 L9,0 L2,2 L0,9 L-2,2 L-9,0 L-2,-2 Z" fill="#FDE047"/>
+    </g>
+
+    <text x="600" y="54" text-anchor="middle" class="ft1">ĐỖ HỒNG DƯƠNG  (DMT)</text>
+    <text x="600" y="80" text-anchor="middle" class="ft2">doduong27032003@gmail.com  ·  github.com/Duong-DMT</text>
+  </g>
+
+  <rect x="6" y="6" width="1188" height="106" rx="18" fill="none" stroke="url(#fBorder)" stroke-opacity="0.6" stroke-width="1.6"/>
+</svg>

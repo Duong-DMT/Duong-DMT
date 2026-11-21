@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 28" width="100%" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#38BDF8" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#FDE047" stop-opacity="0.95"/>
+      <stop offset="80%" stop-color="#A855F7" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="pulseDot" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="45%" stop-color="#7DD3FC" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-200%" width="200%" height="500%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="40" y="13" width="1120" height="2" rx="1" fill="url(#lineGrad)" opacity="0.75"/>
+
+  <!-- Sweeping Light Orb -->
+  <ellipse cx="0" cy="14" rx="55" ry="5" fill="url(#pulseDot)" filter="url(#glow)">
+    <animate attributeName="cx" values="60;1140;60" dur="5.2s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Center Diamond -->
+  <g transform="translate(600, 14)" filter="url(#glow)">
+    <path d="M0,-8 L2.4,-2.4 L8,0 L2.4,2.4 L0,8 L-2.4,2.4 L-8,0 L-2.4,-2.4 Z" fill="#FDE68A">
+      <animateTransform attributeName="transform" type="scale" values="0.85;1.2;0.85" dur="2.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

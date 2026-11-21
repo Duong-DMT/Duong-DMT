@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 138" width="100%" role="img" aria-label="Tech Stack">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B18"/>
+      <stop offset="100%" stop-color="#0D1429"/>
+    </linearGradient>
+    <linearGradient id="frameBling" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#FDE047"/>
+    </linearGradient>
+    <linearGradient id="pillCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.11"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="panelClip">
+      <rect x="6" y="6" width="1188" height="126" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .pillTxt { font: 600 14px 'Segoe UI', system-ui, sans-serif; fill: #F1F5F9; letter-spacing: 0.5px; }
+    .pillSub { font: 700 10px 'Consolas', monospace; letter-spacing: 2px; fill: #7DD3FC; }
+  </style>
+
+  <g clip-path="url(#panelClip)">
+    <rect x="6" y="6" width="1188" height="126" fill="url(#cardBg)"/>
+
+    <!-- Row 1 Pills (Centered around 600) -->
+    <g transform="translate(0, 32)">
+      <g transform="translate(88, 0)">
+        <rect width="154" height="36" rx="18" fill="url(#pillCyan)" stroke="#38BDF8" stroke-opacity="0.55" stroke-width="1.2"/>
+        <text x="77" y="23" text-anchor="middle" class="pillTxt">TypeScript</text>
+      </g>
+      <g transform="translate(260, 0)">
+        <rect width="154" height="36" rx="18" fill="url(#pillCyan)" stroke="#FACC15" stroke-opacity="0.55" stroke-width="1.2"/>
+        <text x="77" y="23" text-anchor="middle" class="pillTxt">JavaScript</text>
+      </g>
+      <g transform="translate(432, 0)">
+        <rect width="154" height="36" rx="18" fill="url(#pillCyan)" stroke="#E2E8F0" stroke-opacity="0.55" stroke-width="1.2"/>
+        <text x="77" y="23" text-anchor="middle" class="pillTxt">Next.js 15</text>
+      </g>
+      <g transform="translate(604, 0)">
+        <rect width="154" height="36" rx="18" fill="url(#pillCyan)" stroke="#38BDF8" stroke-opacity="0.55" stroke-width="1.2"/>
+        <text x="77" y="23" text-anchor="middle" class="pillTxt">React 19</text>
+      </g>
+      <g transform="translate(776, 0)">
+        <rect width="154" height="36" rx="18" fill="url(#pillCyan)" stroke="#4ADE80" stroke-opacity="0.55" stroke-width="1.2"/>
+        <text x="77" y="23" text-anchor="middle" class="pillTxt">Node.js</text>
+      </g>
+      <g transform="translate(948, 0)">
+        <rect width="164" height="36" rx="18" fill="url(#pillCyan)" stroke="#22D3EE" stroke-opacity="0.55" stroke-width="1.2"/>
+        <text x="82" y="23" text-anchor="middle" class="pillTxt">Tailwind CSS</text>
+      </g>
+    </g>
+
+    <!-- Row 2 Pills -->
+    <g transform="translate(0, 82)">
+      <g transform="translate(88, 0)">
+        <rect width="154" height="36" rx="18" fill="url(#pillCyan)" stroke="#60A5FA" stroke-opacity="0.55" stroke-width="1.2"/>
+        <text x="77" y="23" text-anchor="middle" class="pillTxt">PostgreSQL</text>
+      </g>
+      <g transform="translate(260, 0)">
+        <rect width="154" height="36" rx="18" fill="url(#pillCyan)" stroke="#34D399" stroke-opacity="0.55" stroke-width="1.2"/>
+        <text x="77" y="23" text-anchor="middle" class="pillTxt">Neon DB</text>
+      </g>
+      <g transform="translate(432, 0)">
+        <rect width="154" height="36" rx="18" fill="url(#pillCyan)" stroke="#A78BFA" stroke-opacity="0.55" stroke-width="1.2"/>
+        <text x="77" y="23" text-anchor="middle" class="pillTxt">Prisma ORM</text>
+      </g>
+      <g transform="translate(604, 0)">
+        <rect width="154" height="36" rx="18" fill="url(#pillCyan)" stroke="#F472B6" stroke-opacity="0.55" stroke-width="1.2"/>
+        <text x="77" y="23" text-anchor="middle" class="pillTxt">Auth.js v5</text>
+      </g>
+      <g transform="translate(776, 0)">
+        <rect width="154" height="36" rx="18" fill="url(#pillCyan)" stroke="#FB923C" stroke-opacity="0.55" stroke-width="1.2"/>
+        <text x="77" y="23" text-anchor="middle" class="pillTxt">Git &amp; Docker</text>
+      </g>
+      <g transform="translate(948, 0)">
+        <rect width="164" height="36" rx="18" fill="url(#pillCyan)" stroke="#FDE047" stroke-opacity="0.55" stroke-width="1.2"/>
+        <text x="82" y="23" text-anchor="middle" class="pillTxt">Vercel</text>
+      </g>
+    </g>
+
+    <!-- Gliding Shimmer -->
+    <g transform="rotate(15 600 69)">
+      <rect x="-250" y="-80" width="200" height="300" fill="url(#sweep)">
+        <animateTransform attributeName="transform" type="translate" from="-200 0" to="1650 0" dur="5.6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <rect x="6" y="6" width="1188" height="126" rx="18" fill="none" stroke="url(#frameBling)" stroke-opacity="0.65" stroke-width="1.6"/>
+</svg>
