@@ -35,20 +35,12 @@ Mình là **Đỗ Hồng Dương (DMT)**, lập trình viên Full-Stack Web tạ
 ### Dự án nổi bật
 
 <div align="center">
-  <img src="./assets/projects-showcase.svg" width="100%" alt="Featured Projects" />
+  <img src="./assets/projects-showcase.svg" width="100%" alt="Featured Project - DuongMTP" />
 </div>
 
 <table width="100%">
   <tr>
-    <td width="33.3%" align="center">
-      <a href="https://github.com/Duong-DMT/aurora-hotel"><strong>Aurora Hotel</strong></a><br/>
-      <sub>Next.js 15 · TypeScript · Neon DB</sub>
-    </td>
-    <td width="33.3%" align="center">
-      <a href="https://github.com/Duong-DMT/ph4rmacyvn"><strong>Ph4rmacyVN</strong></a><br/>
-      <sub>Next.js 15 · Prisma · PostgreSQL</sub>
-    </td>
-    <td width="33.3%" align="center">
+    <td align="center">
       <a href="https://github.com/Duong-DMT/DuongMTP"><strong>DuongMTP</strong></a> · <a href="https://duong-mtp.vercel.app"><strong>Live</strong></a><br/>
       <sub>TypeScript · Vercel</sub>
     </td>
